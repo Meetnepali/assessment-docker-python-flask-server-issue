@@ -1,2 +1,3 @@
-# assessment-docker-python-flask-server-issue
-Infrastructure Assessment Task: You're given a Dockerfile which is used for running a Python Flask server application. The applicati
+This Flask web server is meant to connect to a PostgreSQL database. The Flask server should return a 'Database connection successful' message when accessed at the root path. However, the server cannot connect to the database when run inside a Docker container.
+
+As a DevOps engineer, you need to debug and fix the issue causing this problem. Feel free to modify any of these files or create new ones as necessary. When you believe the issue is fixed, running 'docker-compose up' should start the server without any errors, and accessing 'localhost:5000' in your web browser should return 'Database connection successful'.
